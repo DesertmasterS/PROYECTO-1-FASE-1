@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+header{
+    background-color: white;
+}
+
+.barra{
+    display: flex;
+    background-color: white;
+    padding: 0%;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+.icono{
+    width: 10%;
+}
+.buscador{
+    width: 40%;
+}
