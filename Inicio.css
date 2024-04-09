@@ -1,16 +1,19 @@
 
 
 
+*{
+    font-family: 'Ponnala',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: rgb(170, 163, 163);
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
-}
-header{
-    background-color: rgb(170, 163, 163);
-
+    min-height: 100vh;
 }
 
 
@@ -32,25 +35,57 @@ header{
     width: 40%;
 }
 
-.Inicio{
-    display: grid;
-    padding: 3%;
+.Contenedor{
+    border-radius: 30px;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+  }
+  
+
+.Contenedor h1{
+    font-size: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.Contenedor .Datos{
     width: 100%;
-    height: 400px;
-    background: white;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.Datos input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+.Iniciar{
+    margin: 30px 0;
     align-items: center;
+    
 }
 
-
-.boton{
+.Iniciar .boton{
     background-color: orange;
-    width: 50%;
-    margin: 10px;
+
+
 }
 
-
-.input-caja{
-    display: grid;
-}
-
-
+/*
+display: flex;
+padding: 0;
+width: 100%;
+height:auto;
+background: white;
+align-items: center;
+border-radius: 15px;
+*/
