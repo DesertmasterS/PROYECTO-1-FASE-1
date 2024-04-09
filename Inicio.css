@@ -37,7 +37,8 @@ body{
 
 .Contenedor{
     border-radius: 30px;
-    background: #f1f1f1;
+    background: #f9f9f9;
+    border: 2px solid rgb(193,187,187);
     margin: 0;
     padding: 20px;
     width: 500px;
@@ -64,22 +65,43 @@ body{
     border: 2px solid gray;
     border-radius: 10px;
     padding: 5px;
-
+    box-shadow: -1px 0.8px 1px gray;
 
 }
 
-.Iniciar{
-    margin: 30px 0;
-    align-items: center;
+
+.Iniciar .btn{
+    position: relative;
+    left: 35%;
+    background-color: orange;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin: 10px 0 5px;
+    color: #f9f9f9;
     
 }
 
-.Iniciar .boton{
-    background-color: orange;
-
-
+.Olvidar{
+    text-align: center;
 }
 
+a:link{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+
+}
+a:visited{ 
+    text-decoration: none; 
+} 
+  a:hover { 
+    text-decoration: none; 
+} 
+  a:active{ 
+    text-decoration: none; 
+}
 /*
 display: flex;
 padding: 0;
