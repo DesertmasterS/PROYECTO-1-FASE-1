@@ -19,7 +19,7 @@ main{
     border: 2px solid rgb(193,187,187);
     margin: 0;
     padding: 20px;
-    width:  600px;
+    width:  450px;
     height: 500px;
 }
   
@@ -32,17 +32,31 @@ main{
 }
 
 
-.Nombre .Datos{
+.Nombres{
     display: flex;
     font-family: 'Ponnala',sans-serif;
-    padding: 0;
+    margin-bottom: 10px;
 }
 
-.Fecha{
-    display: flex;
-    
+.Nombres .Apellido{
+    margin-left: 10px;
 }
+
+
+
 
 .Fecha .Days{
     font-family: 'ROBOTO',sans-serif;
+    margin: 0px;
+}
+
+.Fecha .Month{
+    position: relative;
+    font-family: 'ROBOTO',sans-serif;
+    margin: 50px;
+}
+
+.Fecha .Year{
+    font-family: 'ROBOTO',sans-serif;
+    margin: 20px;
 }
