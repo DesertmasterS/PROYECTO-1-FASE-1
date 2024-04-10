@@ -4,11 +4,9 @@
 *{
     font-family: 'Ponnala',sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-body{
+main{
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
@@ -18,23 +16,6 @@ body{
 
 
 
-.barra{
-    display: flex;
-    background-color: white;
-    padding: 3%;
-    width: 100%;
-    height: 40px;
-    margin: 30px;
-    align-items: center;
-}
-
-.icono{
-    width: 10%;
-}
-.buscador{
-    width: 40%;
-}
-
 .Contenedor{
     border-radius: 30px;
     background: #f9f9f9;
@@ -42,7 +23,7 @@ body{
     margin: 0;
     padding: 20px;
     width: 500px;
-  }
+}
   
 
 .Contenedor h1{

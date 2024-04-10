@@ -1,0 +1,38 @@
+
+*{
+    font-family: 'Ponnala',sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.Contenedor{
+    border-radius: 30px;
+    background: #f9f9f9;
+    border: 2px solid rgb(193,187,187);
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+}
+  
+
+.Contenedor h1{
+    font-size: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.Nombre .Datos{
+display: inline;
+position: relative;
+}
+
+
