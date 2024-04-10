@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.Contenedor{
+    border-radius: 30px;
+    background: #f9f9f9;
+    border: 2px solid rgb(193,187,187);
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+}
+
+.Linea1{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Linea1 .Plato1{
+    margin-right: 10px;
+}
+
+.Linea2{
+    display: grid;
+}
