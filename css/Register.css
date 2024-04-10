@@ -20,7 +20,7 @@ main{
     margin: 0;
     padding: 20px;
     width:  450px;
-    height: 500px;
+    height: 520px;
 }
   
 
@@ -29,34 +29,154 @@ main{
     font-size: 40px;
     text-align: center;
     color: gray;
-}
-
-
-.Nombres{
-    display: flex;
-    font-family: 'Ponnala',sans-serif;
     margin-bottom: 10px;
 }
 
-.Nombres .Apellido{
+
+.Contenedor .Nombres{
+    display: flex;
+    font-family: 'Ponnala',sans-serif;
+    margin-bottom: 10px;
+    
+    
+}
+
+.Nombres .Nombre input{
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.Nombres .Apellido input{
+    width:95%;
     margin-left: 10px;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
 }
 
 
-
+.Contenedor .Correo input{
+    width: 100%;
+    font-family: 'Ponnala',sans-serif;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
 
 .Fecha .Days{
     font-family: 'ROBOTO',sans-serif;
     margin: 0px;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
 }
 
 .Fecha .Month{
     position: relative;
     font-family: 'ROBOTO',sans-serif;
-    margin: 50px;
+    margin-top: 10px;
+    margin-left:30px;
+    margin-right:40px;
+    margin-bottom: 10px;
+    width: 40%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
 }
 
 .Fecha .Year{
     font-family: 'ROBOTO',sans-serif;
-    margin: 20px;
+    padding: 2px;
+    width: 28.5%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.Genero{
+    margin-bottom: 10px;
+    font-family: 'Ponnala',sans-serif;
+    width: 30%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+    
+}
+
+.Telefono{
+    display: flex;
+    font-family: 'ROBOTO',sans-serif;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    
+}
+
+ .DigitoPais input{
+    width: 65px;
+    margin-right: 20px;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.Numero input{
+    width: 170%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.comuna{
+    margin-bottom: 5px;
+    font-family: 'Ponnala',sans-serif;
+    width: fit-content;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+
+
+.Direccion input{
+    margin-bottom: 10px;
+    font-family: 'Ponnala',sans-serif;
+    width: 100%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.Contraseña input{
+    margin-bottom: 10px;
+    font-family: 'Ponnala',sans-serif;
+    width: 100%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.RepContraseña input{
+    margin-bottom: 10px;
+    font-family: 'Ponnala',sans-serif;
+    width: 100%;
+    background-color: #f1f1f1;
+    border:none;
+    outline:none;
+}
+
+.Registrar .btn{
+    position: relative;
+    left: 35%;
+    background-color: orange;
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0 5px;
+    color: #f9f9f9;
+}
+
+::placeholder{
+    color: gray
 }
