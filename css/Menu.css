@@ -1,37 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*CARRUSEL*/
 .carousel-item img{
     width: 100%;
     height: 600px;
     object-fit: cover;
 }
 
-.previo{
-    display: flex;
-    background-color: rgb(239,171,82);
-    border-radius: 100px;
-    
-}
- div .next{
-    display:flex;
-    background-color: rgb(239,171,82);
-    border-radius: 100px;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px; 
+    height: 30px; 
+    background-size: 100%, 100%;
+    background-color:rgb(67, 67, 67);
+    border-radius: 100%;
+
 }
 
+.carousel-control-prev {
+    margin-left: -25px; 
+}
+
+.carousel-control-next {
+    margin-right: -25px; 
+}
+
+
+/*CARD'S Y RESTAURANTES*/
 .restaurantes_txt{
     color:rgb(239,171,82) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
     font-weight: bold;
-    margin-left: 2.5%;
+    margin-left: 5rem;
 }
-.restaurantes{
-    display: flex;
-    justify-content: space-around;
-}
+
 .card{
-    background-color: rgb(239, 171, 82) ;
+    background-color: #efab52 ;
     border-radius: 20px;
+    height: 20rem;
 }
 .img{
-    background-color: #EFEFEF;
-    padding: 20px;
+    background-color: #FFFFEE;
     margin: 30px;
     border-radius: 20px;
 }
@@ -39,14 +49,33 @@
 .card-title{
     display: flex;    
     justify-content: center;
+    color: #FFFFEE;
+    font-weight: bold;
+    font-size: 2.6rem;
 }
 .card-text{
     display: flex;
     justify-content:center;
 }
-a .btn {
+.card-body{
+    padding-top: 0px;
+}
+
+.restaurantes{
     display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content:center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    
+}
+body{
+    margin:0px;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
