@@ -43,7 +43,43 @@
                 </div>
                 
                 <div class="boton carrito">
-                    <a href="/html/Detail.html"><img src="/img/img_carro.png" alt="" width="25"></a>
+                    <button style="background-color: rgba(240, 248, 255, 0);border: 0;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="/img/img_carro.png" alt="" width="30px"></button>
+                    <!--<a href="/html/Detail.html"><img src="/img/img_carro.png" alt="" width="25"></a>-->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito de compra <hr></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="Linea">
+                                <div class="item2 Plato1">
+                                    <img src="/img/Plato.jpg" alt="Primer Producto" width="80px" >
+                                </div>
+                                <div class="item2 Cantidad">
+                                    <select class="number">
+                                        <option value="number">1</option>
+                                        <option value="number">2</option>
+                                        <option value="number">3</option>
+                                        <option value="number">4</option>
+                                        <option value="number">5</option>
+                                    </select>
+                                </div>
+                                <div class="item2 texto">
+                                    <h6>Nombre del Producto</h6>
+                                </div>
+                                <div class="item2 Numero">
+                                    <input type="number" placeholder="$8.000">
+                                </div>
+                                
+                            </div>
+                            
+                            <a href="/html/Detail.html">
+                                <div class="irCompra">
+                                    <h6>COMPRAR</h6>
+                                </div>
+                            </a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -56,8 +92,9 @@
                     <a href="/html/Register.html">Registro</a>
                 </div>
             </div>  
-        </div> 
-    </header>
+        </div>
+        
+    </header> 
     <main>
 
         <div class="Contenedor">

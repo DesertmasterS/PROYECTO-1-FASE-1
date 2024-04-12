@@ -6,7 +6,6 @@
     <title>Restaurant "El Comilon"</title>
     <script src="/js/Modal.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
     <!--
         Test
@@ -16,7 +15,7 @@
 </head>
 <body>
     <!--
-        BARRA
+        BARRA --------------------------------------------------------------------------------------------
     -->
    <header>
         <div class="barra">
@@ -46,7 +45,42 @@
                 </div>
                 
                 <div class="boton carrito">
-                    <a href="/html/Detail.html"><img src="/img/img_carro.png" alt="" width="25"></a>
+                    <button style="background-color: rgba(240, 248, 255, 0);border: 0;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="/img/img_carro.png" alt="" width="30px"></button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito de compra <hr></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="Linea">
+                                <div class="item2 Plato1">
+                                    <img src="/img/Plato.jpg" alt="Primer Producto" width="80px" >
+                                </div>
+                                <div class="item2 Cantidad">
+                                    <select class="number">
+                                        <option value="number">1</option>
+                                        <option value="number">2</option>
+                                        <option value="number">3</option>
+                                        <option value="number">4</option>
+                                        <option value="number">5</option>
+                                    </select>
+                                </div>
+                                <div class="item2 texto">
+                                    <h6>Nombre del Producto</h6>
+                                </div>
+                                <div class="item2 Numero">
+                                    <input type="number" placeholder="$8.000">
+                                </div>
+                                
+                            </div>
+                            
+                            <a href="/html/Detail.html">
+                                <div class="irCompra">
+                                    <h6>COMPRAR</h6>
+                                </div>
+                            </a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -65,162 +99,151 @@
     
     <main>
         <!-- 
-            CARRUSEL
+            CARRUSEL --------------------------------------------------------------------------------------------
         -->
         <br>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExample1" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/img_oferta_1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/img_oferta_2.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/img_oferta_3.jpg" alt="Third slide">
-                </div>
+              <div class="carousel-item active">
+                <img src="/img/img_oferta_1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/img_oferta_2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/img_oferta_3.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-        
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <div class="previo">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <div class="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
           <br><br><br><br><br><br>
         <!--
-            RESTAURANTES Y CARDS
+            RESTAURANTES Y CARDS --------------------------------------------------------------------------------------------
         -->
           <div class="restaurantes_txt">
             <h1>RESTAURANTES</h1>
           </div>
           <hr>
 
-          <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+
+          <div id="carouselExample2" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="restaurantes">
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img">
-                                    <img src="/img/le_ñam_logo.png" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Le Ñam</h5>
-                                
-                                </div>
+              <div class="carousel-item active">
+                <div class="restaurantes">
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img">
+                                <img src="/img/le_ñam_logo.png" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Le Ñam</h5>
                             
                             </div>
-                        </a>
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img">
-                                    <img src="/img/latin-grill.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Latin Grill</h5>
-                                </div>
-                            </div>
-                        </a>
-                         <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img"> 
-                                    <img src="/img/la-cabrera.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">La Cabrera</h5>
-                                </div>
-                            </div>
-                         </a>
-                         <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img"> 
-                                    <img src="/img/liguria.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Liguria</h5>
-                                </div>
-                            </div>
-                         </a>
                         
-                        
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="restaurantes">
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img">
-                                    <img src="/img/tomodashi_go.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Tomodashi</h5>
-                                </div>  
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img">
+                                <img src="/img/latin-grill.jpg" class="card-img-top" alt="..." >
                             </div>
-                        </a>
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img">
-                                    <img src="/img/Rishtedar.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Rishtedar</h5>
-                                </div>
-                            </div> 
-                        </a>
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img"> 
-                                    <img src="/img/Zanzibar.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Zanzibar</h5>
-                                </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Latin Grill</h5>
                             </div>
-                        </a>
-                        <a href="">
-                            <div class="card" style="width: 16rem; height: 20rem;">
-                                <div class="img"> 
-                                    <img src="/img/Tanaka.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Tanaka</h5>
-                                </div>
+                        </div>
+                    </a>
+                     <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img"> 
+                                <img src="/img/la-cabrera.jpg" class="card-img-top" alt="...">
                             </div>
-                        </a>
-                        
-                        
+                            <div class="card-body">
+                            <h5 class="card-title">La Cabrera</h5>
+                            </div>
+                        </div>
+                     </a>
+                     <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img"> 
+                                <img src="/img/liguria.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Liguria</h5>
+                            </div>
+                        </div>
+                     </a>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="restaurantes">
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img">
+                                <img src="/img/tomodashi_go.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Tomodashi</h5>
+                            </div>  
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img">
+                                <img src="/img/Rishtedar.jpg" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Rishtedar</h5>
+                            </div>
+                        </div> 
+                    </a>
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img"> 
+                                <img src="/img/Zanzibar.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Zanzibar</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="card" style="width: 16rem; height: 20rem;">
+                            <div class="img"> 
+                                <img src="/img/Tanaka.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Tanaka</h5>
+                            </div>
+                        </div>
+                    </a>
+              </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
-                  </div>
-                </div>
-        
-            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-                <div class="previo">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-                <div class="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-        </div>  
-          
+
+          <
         <br><br><br><br>
         
         <!--
-            PLATOS Y CARDS
+            PLATOS Y CARDS --------------------------------------------------------------------------------------------
         -->
 
           <div class="restaurantes_txt">
@@ -228,129 +251,129 @@
           </div>
         <HR></HR>
 
-        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+       
+
+        <div id="carouselExample3" class="carousel slide">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="restaurantes">
+              <div class="carousel-item active">
+                <div class="restaurantes">
                         
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/Imagen-FideosGod.png" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Fideos con salsa</h5>
-                                <hr>
-                                <p class="card-text">Exquisita mezcla de fideos con salsa, carne molida y queso.</p>
-                                </div>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/Imagen-FideosGod.png" class="card-img-top" alt="..." >
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/Pure.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Pure con pescado</h5>
-                                <hr>
-                                <p class="card-text">Suave puré de papas acompañado de delicado pescado fresco.</p>
-                                </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Fideos con salsa</h5>
+                            <hr>
+                            <p class="card-text">Exquisita mezcla de fideos con salsa, carne molida y queso.</p>
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/Lasaña.jpeg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Lasaña</h5>
-                                <hr>
-                                <p class="card-text">Capas de pasta con salsa de tomate, carne y queso gratinado.</p>
-                                </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/Pure.jpg" class="card-img-top" alt="..." >
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/Papas&pollo.png" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Papas Fritas y pollo:</h5>
-                                <hr>
-                                <p class="card-text">Delicioso pollo crujiente servido con papas fritas doradas.</p>
-                                </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Pure con pescado</h5>
+                            <hr>
+                            <p class="card-text">Suave puré de papas acompañado de delicado pescado fresco.</p>
                             </div>
-                        </a>
-                  </div>
-                </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/Lasaña.jpeg" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Lasaña</h5>
+                            <hr>
+                            <p class="card-text">Capas de pasta con salsa de tomate, carne y queso gratinado.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/Papas&pollo.png" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Papas Fritas y pollo:</h5>
+                            <hr>
+                            <p class="card-text">Delicioso pollo crujiente servido con papas fritas doradas.</p>
+                            </div>
+                        </div>
+                    </a>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="restaurantes">
 
-                <div class="carousel-item">
-                    <div class="restaurantes">
-
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/pastelchoclo.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Pastel de choclo</h5>
-                                <hr>
-                                <p class="card-text">Tradicional pastel de choclo con un relleno sabroso y cremoso.</p>
-                                </div>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/pastelchoclo.jpg" class="card-img-top" alt="..." >
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/ceviche.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Ceviche</h5>
-                                <hr>
-                                <p class="card-text">Refrescante plato de pescado marinado en jugo de limón.</p>
-                                </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Pastel de choclo</h5>
+                            <hr>
+                            <p class="card-text">Tradicional pastel de choclo con un relleno sabroso y cremoso.</p>
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/humitas.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Humitas</h5>
-                                <hr>
-                                <p class="card-text">Tiernas humitas de maíz envueltas en hojas de choclo y cocidos al vapor.</p>
-                                </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/ceviche.jpg" class="card-img-top" alt="..." >
                             </div>
-                        </a>
-                        <a href="/html/DetailProduct.html">
-                            <div class="card comida" style="width: 16rem; height: 26rem;">
-                                <div class="img">
-                                    <img src="/img/lomo.jpg" class="card-img-top" alt="..." >
-                                </div>
-                                <div class="card-body">
-                                <h5 class="card-title">Lomo salteado</h5>
-                                <hr>
-                                <p class="card-text"> Salteado de carne de res, cebolla, tomate y papas fritas.</p>
-                                </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Ceviche</h5>
+                            <hr>
+                            <p class="card-text">Refrescante plato de pescado marinado en jugo de limón.</p>
                             </div>
-                        </a>
-                  </div>
-                </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/humitas.jpg" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Humitas</h5>
+                            <hr>
+                            <p class="card-text">Tiernas humitas de maíz envueltas en hojas de choclo y cocidos al vapor.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/html/DetailProduct.html">
+                        <div class="card comida" style="width: 16rem; height: 26rem;">
+                            <div class="img">
+                                <img src="/img/lomo.jpg" class="card-img-top" alt="..." >
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Lomo salteado</h5>
+                            <hr>
+                            <p class="card-text"> Salteado de carne de res, cebolla, tomate y papas fritas.</p>
+                            </div>
+                        </div>
+                    </a>
+              </div>
+                    
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
-            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
-                <div class="previo">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
-                <div class="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </div>
-            </a>
-        </div>  
+          
           
         
         <br><br><br><br><br>
@@ -414,8 +437,9 @@
     <link rel="stylesheet" href="/css/Navbar.css">
     <link rel="stylesheet" href="/css/Menu.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
