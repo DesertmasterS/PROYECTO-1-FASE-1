@@ -62,8 +62,8 @@ header{
     display: flex;
     height: 40px;
     width: 100px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     margin-left: 20px;
     border-radius: 14px;
@@ -97,10 +97,15 @@ header{
 .item2 h6{
     color: #434343;
 }
+.productos{
+    display: flex;
+    flex-direction: column;
+}
 .Linea{
     display: flex;
     background-color:#D9D9D9;
     border-radius: 20px;
+    align-items: flex-start;
 
 }
 .Linea .Numero input{

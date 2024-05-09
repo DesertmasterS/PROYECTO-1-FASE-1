@@ -177,3 +177,58 @@ html,body
     color: #F5F5F5;
     text-decoration: none;
 }
+
+/*NUEVO CARRUSEL DE COMIDA*/
+
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+}
+
+.left button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;   
+    border: none;
+    background-color: #39383863;
+}
+.right button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;   
+    border: none;
+    background-color: #39383863;
+}
+
+.right img{
+    transform: scaleX(-1);
+}
+.platos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.element{
+    display:flex;
+}
+.food{
+    overflow: auto;
+
+}
+.food .food-container{
+    display: flex;
+    width: 1000rem;
+    justify-content: space-evenly;
+    
+}
+
+
+.food a{
+    text-decoration: none;
+    justify-content: space-evenly;
+}
