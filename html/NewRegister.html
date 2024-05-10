@@ -116,7 +116,7 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <form action="" id="formulario" method="post" class="col-md-6 mx-auto my-5 shadow-lg mt text-center rounded">
+                <form action="" id="formulario" method="post" class="col-md-5 mx-auto my-5 shadow-lg mt text-center rounded">
                     <h3>Registro</h3>
                     <div class="row g-2">
                         <div class="col-md mb-3">
@@ -130,8 +130,7 @@
                                 <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Apellidos" required>
                                 <label for="apellido">Apellidos</label>
                             </div>
-                        </div>
-                        
+                        </div>   
                     </div>
                         <div class="form-floating col-5 mb-3 ">
                             <input type="email" name="correoP" id="correoP" class="form-control" placeholder="ejemplo1@gmail.com" required>
@@ -141,7 +140,7 @@
                             <input type="email" name="correoE" id="correoE" class="form-control">
                             <label for="correoE">Correo Empresarial</label>
                         </div>
-                    <div class="row g-3 mb-5">
+                    <div class="row g-3 mb-3">
                         <div class="col-md">
                             <div class="form-floating">
                                 <input type="date" name="fecnac" id="fecnac" class="form-control" required>
@@ -165,15 +164,39 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-floating col-5">
+                    <div class="form-floating col-5 mb-3">
                         <select name="comuna" id="comuna" class="form-select" required>
 
                             <option value="1">Recoleta</option>
-                            <option value="2">Femenino</option>
-                            <option value="3">Otro</option>
+                            <option value="2">Puente Alto</option>
+                            <option value="3">Providencia</option>
+                            <option value="4">Santiago</option>
+                            <option value="5">Maipu</option>
                         </select>
                         <label for="comuna">Comuna</label>
-                    </div>  
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-8">
+                            <div class="form-floating">
+                                <input type="text" name="direccion" id="direccion" class="form-control">
+                                <label for="direccion">Dirección</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="form-floating">
+                                <input type="text" name="numDir" id="numDir" class="form-control"> 
+                                <label for="numero">Número</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating col-md-8 mb-3">
+                        <input type="text" name="contraseña" id="contraseña" class="form-control">
+                        <label for="contraseña">Contraseña</label>
+                    </div>
+                    <div class="form-floating col-md-8">
+                        <input type="text" name="Repcontraseña" id="Repcontraseña" class="form-control">
+                        <label for="Repcontraseña">Repetir Contraseña</label>
+                    </div>
                 </form>
             </div>
         </div>
