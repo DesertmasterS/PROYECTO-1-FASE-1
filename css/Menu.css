@@ -185,7 +185,7 @@ html,body
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 100px;
+    width: 100rem;
     padding: 0;
 }
 
@@ -213,22 +213,21 @@ html,body
     align-items: center;
     margin-top: 30px;
 }
-.element{
-    display:flex;
-}
+
 .food{
-    overflow: auto;
+    overflow:scroll;
+    overflow-y: hidden;
+    width: 300rem;
 
 }
 .food .food-container{
     display: flex;
-    width: 1000rem;
+    width: 160rem;
     justify-content: space-evenly;
     
-}
+}   
 
 
 .food a{
     text-decoration: none;
-    justify-content: space-evenly;
 }

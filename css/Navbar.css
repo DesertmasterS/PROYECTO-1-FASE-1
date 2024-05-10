@@ -16,7 +16,7 @@ header{
     align-items: center;
     box-shadow: -4px .1px 10px;
     justify-content: space-evenly;
-    position: fixed;
+    position: static;
     z-index: 2;
 }
 .item{
