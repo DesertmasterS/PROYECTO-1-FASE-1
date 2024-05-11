@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <!--  -->
     <header >
         <div class="barra">
             <div class="item i1">
@@ -124,12 +123,12 @@
             <div class="row">
                 <div class="formulario mt-5">
                     <form action="" name="formulario" id="formulario" method="post"
-                        class="col-md-4 mx-auto my-5 shadow-lg mt text-center formulario"
-                        style="border-radius: 30px;  ">
-                        <h3>Registro</h3>
+                        class="col-md-4 mx-auto my-5 border light mt text-center formulario"
+                        style="border-radius: 30px; background-color: #f9f9f9;">
+                        <h3 style="color: gray;">Registro</h3>
                         <div class="row g-2">
                             <div class="col-md mb-3">
-                                <div class="form-floating">
+                                <div class="form-floating Nombres">
                                     <input type="text" class="form-control" name="nombre" id="nombre"
                                         placeholder="Nombres" required>
                                     <label for="nombre">Nombres</label>
@@ -171,7 +170,7 @@
                             </div>
                             <div class="col-md">
                                 <div class="form-floating mx-auto">
-                                    <input type="number" name="numtelef" id="numtelef" class="form-control">
+                                    <input type="text" name="numtelef" id="numtelef" class="form-control">
                                     <label for="numtelef">Número de Celular</label>
                                 </div>
                             </div>
@@ -210,8 +209,7 @@
                             <label for="Repcontraseña">Repetir Contraseña</label>
                         </div>
                         <div class="form-group col-6 mx-auto mb-4">
-                            <input type="submit" value="Registrarse" class="btn btn-outline-primary" onclick="validar()"
-                                style="border-color: orange;">
+                            <input type="submit" id="submit" name="submit" value="Registrarse" class="btn btn-outline-primary rounded-pill" onclick="validar()">
                         </div>
                     </form>
                 </div>
