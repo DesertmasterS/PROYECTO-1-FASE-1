@@ -185,7 +185,7 @@ html,body
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 100rem;
+    width: 50rem;
     padding: 0;
 }
 
@@ -209,25 +209,45 @@ html,body
 }
 .platos{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
 }
 
 .food{
-    overflow:scroll;
-    overflow-y: hidden;
-    width: 300rem;
+    display: flex;
+    width: 840px;
+    align-items: center;
+    
 
 }
-.food .food-container{
+.food-container{
     display: flex;
-    width: 160rem;
+    align-items: center;
+    width: 10rem;
+    height: 36rem;
     justify-content: space-evenly;
     
 }   
-
-
 .food a{
     text-decoration: none;
+}
+.owl-carousel{
+    width: 840px;
+}
+.owl-stage-outer{
+    width: 840px;
+    height: 576px;
+}
+.owl-stage{
+    width: 840px;
+    height: 576px;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+.owl-item{
+    margin-top: 280px;
 }

@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fideos con Salsa",
+        "precio": 6500,
+        "descripcion":"Exquisita mezcla de fideos con salsa, carne molida y queso.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    {
+        "id": 2,
+        "nombre": "Puré con Pescado",
+        "precio": 10000,
+        "descripcion":"Suave puré de papas acompañado de delicado pescado fresco.",
+        "ingredientes": ["Pescado","tomate","oregano"]
+    },
+    {
+        "id": 3,
+        "nombre": "Lasaña",
+        "precio": 9000,
+        "descripcion":"Capas de pasta con salsa de tomate, carne y queso gratinado.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    {
+        "id": 4,
+        "nombre": "Papas Fritas y pollo",
+        "precio": 7000,
+        "descripcion":"Delicioso pollo crujiente servido con papas fritas doradas.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    {
+        "id": 5,
+        "nombre": "Pastel de choclo",
+        "precio": 6000,
+        "descripcion":"Tradicional pastel de choclo con un relleno sabroso y cremoso.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    {
+        "id": 6,
+        "nombre": "Ceviche",
+        "precio": 5000,
+        "descripcion":"Refrescante plato de pescado marinado en jugo de limón.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    {
+        "id": 7,
+        "nombre": "Humitas",
+        "precio": 2000,
+        "descripcion":"Tiernas humitas de maíz envueltas en hojas de choclo y cocidos al vapor.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    },
+    
+    {
+        "id": 8,
+        "nombre": "Lomo salteado",
+        "precio": 6500,
+        "descripcion":"Salteado de carne de res, cebolla, tomate y papas fritas.",
+        "ingredientes": ["Queso","Carne molida","Fideos"]
+    }
+    
+]
