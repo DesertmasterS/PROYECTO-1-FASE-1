@@ -201,17 +201,18 @@
                             </div>
                         </div>
                         <div class="form-floating col-md-8 mb-3">
-                            <input type="text" name="contraseña" id="contraseña" class="form-control">
+                            <input type="password" name="contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="contraseña" class="form-control">
                             <label for="contraseña">Contraseña</label>
                         </div>
                         <div class="form-floating col-md-8 mb-4">
-                            <input type="text" name="Repcontraseña" id="Repcontraseña" class="form-control">
+                            <input type="password" name="Repcontraseña" id="Repcontraseña" class="form-control">
                             <label for="Repcontraseña">Repetir Contraseña</label>
                         </div>
                         <div class="form-group col-6 mx-auto mb-4">
                             <input type="submit" id="submit" name="submit" value="Registrarse" class="btn btn-outline-primary rounded-pill" onclick="validar()">
                         </div>
                     </form>
+
                 </div>
 
             </div>
