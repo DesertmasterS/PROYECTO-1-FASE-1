@@ -1,3 +1,5 @@
+
+
 console.log("mentita");
 
 var popUp = document.getElementById("popUp");
@@ -21,3 +23,4 @@ document.onclick= function(event) {
     
      //alert('clicked on '+target.tagName);
 };
+

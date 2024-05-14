@@ -4,6 +4,7 @@
         "nombre": "Fideos con Salsa",
         "precio": 6500,
         "descripcion":"Exquisita mezcla de fideos con salsa, carne molida y queso.",
+        "imagen":"/img/platos/Fideos",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -11,6 +12,7 @@
         "nombre": "Puré con Pescado",
         "precio": 10000,
         "descripcion":"Suave puré de papas acompañado de delicado pescado fresco.",
+        "imagen":"/img/platos/Pure",
         "ingredientes": ["Pescado","tomate","oregano"]
     },
     {
@@ -18,6 +20,7 @@
         "nombre": "Lasaña",
         "precio": 9000,
         "descripcion":"Capas de pasta con salsa de tomate, carne y queso gratinado.",
+        "imagen":"/img/platos/Lasaña",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -25,6 +28,7 @@
         "nombre": "Papas Fritas y pollo",
         "precio": 7000,
         "descripcion":"Delicioso pollo crujiente servido con papas fritas doradas.",
+        "imagen":"/img/platos/Papas&pollo",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -32,6 +36,7 @@
         "nombre": "Pastel de choclo",
         "precio": 6000,
         "descripcion":"Tradicional pastel de choclo con un relleno sabroso y cremoso.",
+        "imagen":"/img/platos/pastelchoclo",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -39,6 +44,7 @@
         "nombre": "Ceviche",
         "precio": 5000,
         "descripcion":"Refrescante plato de pescado marinado en jugo de limón.",
+        "imagen":"/img/platos/Ceviche",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -46,6 +52,7 @@
         "nombre": "Humitas",
         "precio": 2000,
         "descripcion":"Tiernas humitas de maíz envueltas en hojas de choclo y cocidos al vapor.",
+        "imagen":"/img/platos/Humitas",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     
@@ -54,6 +61,7 @@
         "nombre": "Lomo salteado",
         "precio": 6500,
         "descripcion":"Salteado de carne de res, cebolla, tomate y papas fritas.",
+        "imagen":"/img/platos/Lomo",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     }
     
