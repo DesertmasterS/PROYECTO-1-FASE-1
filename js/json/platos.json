@@ -4,7 +4,7 @@
         "nombre": "Fideos con Salsa",
         "precio": 6500,
         "descripcion":"Exquisita mezcla de fideos con salsa, carne molida y queso.",
-        "imagen":"/img/platos/Fideos",
+        "imagen":"/img/platos/Fideos.png",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "Puré con Pescado",
         "precio": 10000,
         "descripcion":"Suave puré de papas acompañado de delicado pescado fresco.",
-        "imagen":"/img/platos/Pure",
+        "imagen":"/img/platos/Pure.jpg",
         "ingredientes": ["Pescado","tomate","oregano"]
     },
     {
@@ -20,7 +20,7 @@
         "nombre": "Lasaña",
         "precio": 9000,
         "descripcion":"Capas de pasta con salsa de tomate, carne y queso gratinado.",
-        "imagen":"/img/platos/Lasaña",
+        "imagen":"/img/platos/Lasaña.jpeg",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -28,7 +28,7 @@
         "nombre": "Papas Fritas y pollo",
         "precio": 7000,
         "descripcion":"Delicioso pollo crujiente servido con papas fritas doradas.",
-        "imagen":"/img/platos/Papas&pollo",
+        "imagen":"/img/platos/Papas&pollo.png",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -36,7 +36,7 @@
         "nombre": "Pastel de choclo",
         "precio": 6000,
         "descripcion":"Tradicional pastel de choclo con un relleno sabroso y cremoso.",
-        "imagen":"/img/platos/pastelchoclo",
+        "imagen":"/img/platos/pastelchoclo.jpg",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -44,7 +44,7 @@
         "nombre": "Ceviche",
         "precio": 5000,
         "descripcion":"Refrescante plato de pescado marinado en jugo de limón.",
-        "imagen":"/img/platos/Ceviche",
+        "imagen":"/img/platos/Ceviche.jpg",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "Humitas",
         "precio": 2000,
         "descripcion":"Tiernas humitas de maíz envueltas en hojas de choclo y cocidos al vapor.",
-        "imagen":"/img/platos/Humitas",
+        "imagen":"/img/platos/Humitas.jpg",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     },
     
@@ -61,7 +61,7 @@
         "nombre": "Lomo salteado",
         "precio": 6500,
         "descripcion":"Salteado de carne de res, cebolla, tomate y papas fritas.",
-        "imagen":"/img/platos/Lomo",
+        "imagen":"/img/platos/Lomo.jpg",
         "ingredientes": ["Queso","Carne molida","Fideos"]
     }
     
