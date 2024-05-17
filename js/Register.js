@@ -12,13 +12,12 @@ const ValidContraseña = contraseña => {
 
 
 
-/*  TESTEAR FORMULARIO
+
 formulario.addEventListener('submit',e => {
     e.preventDefault();
 
     validar();
 });
-*/
 
 /*PENDIENTE FORMATO NUMERO */
 function formatPhoneNumber(phoneNumberString) {
