@@ -12,13 +12,13 @@ const ValidContraseña = contraseña => {
 
 
 
-
+/*  TESTEAR FORMULARIO
 formulario.addEventListener('submit',e => {
     e.preventDefault();
 
     validar();
 });
-
+*/
 
 /*PENDIENTE FORMATO NUMERO */
 function formatPhoneNumber(phoneNumberString) {
@@ -42,38 +42,39 @@ function validar(){
     let numDir = document.getElementById("numDir").value;
     let contraseña = document.getElementById("contraseña").value;
     let Repcontraseña = document.getElementById("Repcontraseña").value;
-
+    
     if (nombre !== ''){ 
         /*CORRECTO*/
         document.getElementById("nombre").style.border = "1px solid green"
-        if (apellido !== ''){
-            /*CORRECTO*/
-            document.getElementById("apellido").style.border = "1px solid green"
-            document.getElementById("resultado").innerHTML = ''
-            if (correoP === '' || (!ValidEmail(correoP))) {
-                
-                /*ERROR*/
-                document.getElementById("correoP").style.border = "1px solid red";
-                document.getElementById("resultado").innerHTML = "<div class='alert alert-danger w-50 mx-auto text-center'>" +
-                "El campo Correo Personal es incorrecto</div>"
-            }else {
-                /*CORRECTO*/
-                document.getElementById("correoP").style.border = "1px solid green"
-                document.getElementById("resultado").innerHTML = ''
-            }
-
-        }else{
-            /*ERROR*/
-            document.getElementById("apellido").style.border = "1px solid red";
-            document.getElementById("resultado").innerHTML = "<div class='alert alert-danger w-50 mx-auto text-center'>" +
-            "El campo Apellido es requerido</div>"
-        }
     }else{
         /*ERROR*/
         document.getElementById("nombre").style.border = "1px solid red"
         document.getElementById("resultado").innerHTML = "<div class='alert alert-danger w-50 mx-auto text-center'>" +
         "El campo Nombres es requerido</div>"
 
+    }
+
+    if (apellido !== ''){
+        /*CORRECTO*/
+        document.getElementById("apellido").style.border = "1px solid green"
+        document.getElementById("resultado").innerHTML = ''
+    }else{
+        /*ERROR*/
+        document.getElementById("apellido").style.border = "1px solid red";
+        document.getElementById("resultado").innerHTML = "<div class='alert alert-danger w-50 mx-auto text-center'>" +
+        "El campo Apellido es requerido</div>"
+    }
+
+    if (correoP === '' || (!ValidEmail(correoP))) {
+            
+        /*ERROR*/
+        document.getElementById("correoP").style.border = "1px solid red";
+        document.getElementById("resultado").innerHTML = "<div class='alert alert-danger w-50 mx-auto text-center'>" +
+        "El campo Correo Personal es incorrecto</div>"
+    }else {
+        /*CORRECTO*/
+        document.getElementById("correoP").style.border = "1px solid green"
+        document.getElementById("resultado").innerHTML = ''
     }
 
     if (fecnac !== ''){
