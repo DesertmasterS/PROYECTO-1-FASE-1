@@ -1,8 +1,4 @@
-/**{
-    font-family: 'Ponnala',sans-serif;
-    box-sizing: border-box;
-}
-*/
+
 main{
     background-color: #f1f1f1;
     display: flex;
@@ -13,6 +9,8 @@ main{
 
 
 .Contenedor{
+    display: flex;
+    flex-direction: column;
     border-radius: 30px;
     background: #f9f9f9;
     border: 2px solid rgb(193,187,187);
@@ -20,6 +18,7 @@ main{
     padding: 0;
     width: 800px;
     height: 600px;
+    /*justify-content: space-evenly;*/
 
 }
 .PlatoPrincipal{
@@ -29,6 +28,7 @@ main{
 }
 
 .PlatoPrincipal img{
+    
     border-top-left-radius: 28px;
     border-top-right-radius: 28px;
     object-fit: fill;
@@ -92,13 +92,7 @@ hr {
 
 
 
-/* EL COLOR SE CAMBIA MAL
- input[type=checkbox]{
-    outline: 1px solid #EFAB52;
-    appearance: fit-content;
 
-}
-*/
 
 
 .SeguirCompra{
@@ -115,6 +109,8 @@ hr {
 
 .Pagar{
     margin-right: 10px;
+    width: 100%;
+    height: 50px;
 }
 
 .Pagar .btn{
@@ -122,6 +118,7 @@ hr {
     display: flex;
     text-align: end;
     align-items: right;
+    justify-content: flex-end;
     
 }
 
@@ -144,3 +141,8 @@ hr {
     color: #656565;
 }
 
+.Pago{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
