@@ -35,7 +35,7 @@ let carouselContainer = document.createElement('div');
         platos.forEach(plato => {
             let itemHTML = `
                 <div class="item">
-                    <a href="/html/DetailProduct.html">
+                    <a href="/html/DetailProduct.html?id=${plato.id}" class="carta" id="${plato.id}">
                         <div class="card comida" style="width: 16rem; height: 26rem;">
                             <div class="img">
                                 <img src="${plato.imagen}" class="card-img-top" alt="${plato.nombre}" onerror="this.src='/img/platos/default.jpg';">
@@ -54,6 +54,16 @@ let carouselContainer = document.createElement('div');
 
         let contenedor = document.getElementById('Carrusel');
         contenedor.appendChild(carouselContainer);
+        
+        document.getElementById('Carrusel').addEventListener('click', function(event) {
+            if (event.target.closest('.carta')) {
+                let cartaClicada = event.target.closest('.carta');
+                let id = cartaClicada.id;
+                console.log(id);
+            }
+        });
+
+        
 
         $('.owl-carousel').owlCarousel({
             loop:true,
@@ -79,3 +89,5 @@ let carouselContainer = document.createElement('div');
         $('.l').click(function() {
             owl.trigger('prev.owl.carousel', [300]);
         })
+
+        
