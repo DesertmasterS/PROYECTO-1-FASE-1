@@ -55,14 +55,16 @@ for (var i = 0;i<plato.ingredientes.length;i++){
   `
 }
 HTMLcode += `
-<div class="SeguirCompra" id="agregar">
-  <button type="ingresar" class="btn" data-id="${plato.id}">Agregar y seguir comprando</button>
+<div class="Pago">
+  <div class="SeguirCompra" id="agregar">
+    <button type="ingresar" class="btn" data-id="${plato.id}">Agregar y seguir comprando</button>
+  </div>
+  <div class="Pagar">
+    <div>
+        <button type="Ingresar" class="btn" style="float: right;" id="${plato.id}">Pagar ahora &middot; $${plato.precio}</button>
+    </div>     
+  </div> 
 </div>
-<div class="Pagar">
-  <div>
-      <button type="Ingresar" class="btn" style="float: right;" id="${plato.id}">Pagar ahora &middot; $${plato.precio}</button>
-  </div>     
-</div> 
 `  
 }});
 
