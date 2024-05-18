@@ -17,7 +17,7 @@
     <!--
         BARRA --------------------------------------------------------------------------------------------
     -->
-   <header>
+    <header>
         <div class="barra">
             <div class="item i1">
                 <div class="icono">
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="item i3">
-                <div class="boton inssgreso">
+                <div class="boton ingreso">
                     <a href="/html/Login.html" >Ingreso</a>
                 </div>
                 <div class="boton registro">
@@ -51,56 +51,16 @@
                           <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito de compra <hr></h5>
                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
-                            <div class="productos">
-                                <div class="Linea item1">
-                                    <div class="item2 Plato1">
-                                        <img src="/img/Plato.jpg" alt="Primer Producto" width="80px" >
-                                    </div>
-                                    <div class="item2 Cantidad">
-                                        <select class="number">
-                                            <option value="number">1</option>
-                                            <option value="number">2</option>
-                                            <option value="number">3</option>
-                                            <option value="number">4</option>
-                                            <option value="number">5</option>
-                                        </select>
-                                    </div>
-                                    <div class="item2 texto">
-                                        <h6>Nombre del Producto</h6>
-                                    </div>
-                                    <div class="item2 Numero">
-                                        <input type="number" placeholder="$8.000">
-                                    </div>
-                                </div>
-                                <div class="Linea item2">
-                                    <div class="item2 Plato1">
-                                        <img src="/img/Plato.jpg" alt="Primer Producto" width="80px" >
-                                    </div>
-                                    <div class="item2 Cantidad">
-                                        <select class="number">
-                                            <option value="number">1</option>
-                                            <option value="number">2</option>
-                                            <option value="number">3</option>
-                                            <option value="number">4</option>
-                                            <option value="number">5</option>
-                                        </select>
-                                    </div>
-                                    <div class="item2 texto">
-                                        <h6>Nombre del Producto</h6>
-                                    </div>
-                                    <div class="item2 Numero">
-                                        <input type="number" placeholder="$8.000">
-                                    </div>
-                                </div>
+                        <div class="offcanvas-body" id="offcanva">
+                            <div id="identificador">
+
                             </div>
-                            
-                            
                             <a href="/html/Detail.html">
                                 <div class="irCompra">
                                     <h6>COMPRAR</h6>
                                 </div>
                             </a>
+                
                         </div>
                       </div>
                 </div>
@@ -117,7 +77,7 @@
             </div>  
         </div>
         
-    </header>    
+    </header> 
     
     <main>
         <!-- 
@@ -279,24 +239,25 @@
         
           
           <div class="platos">
-            <div class="element butt l" id="Lbutton">
+             <div class="element butt l" id="Lbutton">
                 <div class="left">
                     <button>
                         <img src="/img/button.png" alt="" width="20px">
                     </button>
                 </div>
             </div>
+            <div class="container">
+                <div class="element food" id="Carrusel">
+                </div>
+            </div>    
             
-            <div class="element food" id="Carrusel">
-                
-            </div>
             <div class="element butt r" id="Rbutton">
                 <div class="right">
                     <button >
                         <img src="/img/button.png" alt="" width="20px">
                     </button>
                 </div>
-            </div>
+            </div> 
           </div>
         
         <br><br><br><br><br>

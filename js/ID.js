@@ -61,7 +61,7 @@ HTMLcode += `
   </div>
   <div class="Pagar">
     <div>
-        <button type="Ingresar" class="btn" style="float: right;" id="${plato.id}">Pagar ahora &middot; $${plato.precio}</button>
+        <button type="Ingresar" class="btn" style="float: right;" id="${plato.id}"><a href="Detail.html">Pagar ahora &middot; $${plato.precio} </a></button>
     </div>     
   </div> 
 </div>

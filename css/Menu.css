@@ -185,7 +185,7 @@ html,body
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 50rem;
+    width: 25rem;
     padding: 0;
 }
 
@@ -215,7 +215,7 @@ html,body
 
 .food{
     display: flex;
-    width: 840px;
+    width: 1200px;
     align-items: center;
     
 
@@ -232,14 +232,14 @@ html,body
     text-decoration: none;
 }
 .owl-carousel{
-    width: 840px;
+    width: 100%;
 }
 .owl-stage-outer{
-    width: 840px;
+    width: 100%;
     height: 576px;
 }
 .owl-stage{
-    width: 840px;
+    width: 100%;
     height: 576px;
 }
 .owl-nav{

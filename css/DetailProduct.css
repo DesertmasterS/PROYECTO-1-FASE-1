@@ -128,7 +128,10 @@ hr {
     border: transparent;
     width: 90px;
 }
-
+.Pagar a{
+    text-decoration: none;
+    color:#656565;
+}
 
 .Pagar ::placeholder{
     color: black;

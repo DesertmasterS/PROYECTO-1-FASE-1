@@ -76,8 +76,11 @@ let carouselContainer = document.createElement('div');
                 600:{
                     items:2
                 },
-                1000:{
+                1284:{
                     items:3
+                },
+                1300:{
+                    items:4
                 }
             }
         })
